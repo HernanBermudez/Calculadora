@@ -9,9 +9,30 @@
     <title>Club Atlético Boca Juniors</title>
 </head>
 <body>
-    <div class = "enter_numbers">
+    <div class = "botones_numeros">
         <br><br>
-        <label>Ingresa el primer numero:     </label>
+        <button id = "numeros" onclick="uno()">1</button>
+        <button id = "numeros" onclick="uno()">2</button>
+        <button id = "numeros" onclick="uno()">3</button>
+        <button id = "operadores" onclick="suma()">+</button>
+        <input type="text" id="operando" size="5">
+        <br><br>
+        <button id = "numeros" onclick="uno()">4</button>
+        <button id = "numeros" onclick="uno()">5</button>
+        <button id = "numeros" onclick="uno()">6</button>
+        <button id = "operadores" onclick="resta()">-</button>
+        <br><br>
+        <button id = "numeros" onclick="uno()">7</button>
+        <button id = "numeros" onclick="uno()">8</button>
+        <button id = "numeros" onclick="uno()">9</button>
+        <button id = "operadores" onclick="multi()">*</button>
+        <br><br>
+        <button id = "cerito" onclick="cero()">0</button>
+        <button id = "divition" onclick="divi()">/</button>
+        <button id = "iguala" onclick="igual()">=</button>
+        
+
+        <!--<label>Ingresa el primer numero:     </label>
         <input type="text" id="number1" size="5" style="color: blue;" />
 
         <select class="select" id="operadores" style="color:rgb(32, 23, 23)">
@@ -22,13 +43,12 @@
         </select><br/><br/>
         
         <label>Ingresa el segundo numero: </label>
-        <input type="text" id="number2" size="5"/><br/><br/>
 
         
 
         
         <button onclick="calculadora()">Resultado: </button>
-        <input class="result_final" type="text" id="result">
+        <input class="result_final" type="text" id="result">-->
     </div   >
     <script src = "combazo.js"></script>
 </body>
