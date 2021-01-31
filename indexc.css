@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(50, 112, 184);
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, roboto, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #d43810;
+    padding: 0px 0px 50px 50px;
+    border-radius: 5px;
+  }
+
+input {
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+select {
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 5px;
+    padding-left: 10px;
+}

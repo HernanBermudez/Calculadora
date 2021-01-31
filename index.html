@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link href="indexc.css" rel="stylesheet" type="text/css">
+<html lang="en">
+<head>
+    <h1><center>Calculadora</center></h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <meta http-equiv="X-UA-Compatible" content="style">
+    <title>Club Atlético Boca Juniors</title>
+</head>
+<body>
+    <div class = "enter_numbers">
+        <br><br>
+        <label>Ingresa el primer numero:     </label>
+        <input type="text" id="number1" size="5" style="color: blue;" />
+
+        <select class="select" id="operadores" style="color:rgb(32, 23, 23)">
+            <option value="suma">SUMA</option>
+            <option value="resta">RESTA</option>
+            <option value="multi">MULTIPLICACION</option>
+            <option value="divi">DIVISION</option>
+        </select><br/><br/>
+        
+        <label>Ingresa el segundo numero: </label>
+        <input type="text" id="number2" size="5"/><br/><br/>
+
+        
+
+        
+        <button onclick="calculadora()">Resultado: </button>
+        <input class="result_final" type="text" id="result">
+    </div   >
+    <script src = "combazo.js"></script>
+</body>
+</html>
