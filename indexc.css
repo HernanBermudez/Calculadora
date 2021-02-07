@@ -15,7 +15,7 @@ body {
 .box_operando{
     height: 200px;
     width: 800;
-    float: left;
+    float: left;    
 }
 #display {
     background-color:aliceblue;
