@@ -12,21 +12,21 @@
     <div class = "contenedor"> <!--Contenedor-->
 
         <div class = "box_operando"> <!--Contenedor del display-->
-            <input class = "display" type="text" size="5"> <!--display para ver lo que se va a operar-->
+            <input id = "display" type="text" size="5"> <!--display para ver lo que se va a operar-->
         </div>
 
         <div class = "box_numeros"> <!--Contenedor de los botones de nums-->
-            <button id = "numeros" onclick="uno()">1</button>
-            <button id = "numeros" onclick="uno()">2</button>
-            <button id = "numeros" onclick="uno()">3</button>
+            <button id = "numeros" onclick=uno()>1</button>
+            <button id = "numeros" onclick=dos()>2</button>
+            <button id = "numeros" onclick="tres()">3</button>
             <br><br>
-            <button id = "numeros" onclick="uno()">4</button>
-            <button id = "numeros" onclick="uno()">5</button>
-            <button id = "numeros" onclick="uno()">6</button>
+            <button id = "numeros" onclick="cuarto()">4</button>
+            <button id = "numeros" onclick="cinco()">5</button>
+            <button id = "numeros" onclick="seis()">6</button>
             <br><br>
-            <button id = "numeros" onclick="uno()">7</button>
-            <button id = "numeros" onclick="uno()">8</button>
-            <button id = "numeros" onclick="uno()">9</button>
+            <button id = "numeros" onclick="siete()">7</button>
+            <button id = "numeros" onclick="ocho()">8</button>
+            <button id = "numeros" onclick="nueve()">9</button>
         </div>
 
         <div class = "box_cero"> <!--Contenedor del boton 0-->
@@ -34,6 +34,7 @@
         </div>
 
         <div class = "box_operadores"> <!--Contenedor de los operadores-->
+            <button id = "operadores" onclick="borrar()">C</button>
             <button id = "operadores" onclick="suma()">+</button>
             <button id = "operadores" onclick="resta()">-</button>
             <button id = "operadores" onclick="multi()">*</button>
@@ -41,23 +42,8 @@
             <button id = "operadores" onclick="igual()">=</button>
         </div>
 
-        <!--<label>Ingresa el primer numero:     </label>
-        <input type="text" id="number1" size="5" style="color: blue;" />
-
-        <select class="select" id="operadores" style="color:rgb(32, 23, 23)">
-            <option value="suma">SUMA</option>
-            <option value="resta">RESTA</option>
-            <option value="multi">MULTIPLICACION</option>
-            <option value="divi">DIVISION</option>
-        </select><br/><br/>
-        
-        <label>Ingresa el segundo numero: </label>
-
         
 
-        
-        <button onclick="calculadora()">Resultado: </button>
-        <input class="result_final" type="text" id="result">-->
     </div   > <!--Fin del Contenedor-->
     <script src = "combazo.js"></script>
 </body>

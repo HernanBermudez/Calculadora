@@ -1,11 +1,13 @@
 
 function cero(){
     let num0 = 0;
-    const cerotxt = toString.num0;
+    cerotxt = "0";
+    document.getElementById(display).innerHTML = "0";
 }
 function uno(){
     let num1 = 1;
     const unotxt = toString.num1;
+
 }
 function dos(){
     let num2 = 2;
@@ -39,18 +41,6 @@ function nueve(){
     let num9 = 9;
     const nuevetxt = toString.num9;
 }
-
-function pantalla(){
-    texto = [];
-    var parada = new Boolean (false);
-    while (parada != true);
-    for(let i=0;i<10;i++){
-
-    }
-    String operando = toString.cero;
-
-}
-
 
 
 /*function calculadora(){

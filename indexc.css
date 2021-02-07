@@ -17,7 +17,7 @@ body {
     width: 800;
     float: left;
 }
-.display {
+#display {
     margin-left: 65px;
     margin-top: 50px;
     border-radius: 5px;
@@ -44,7 +44,7 @@ body {
     height: 100px;
     width: 500px;
     margin-left: 65px;
-    float: left;
+    float: bottom;
 }
 
 #cerito{
@@ -64,7 +64,7 @@ body {
 #operadores{
     border-radius: 30px;
     height: 80px;
-    width: 120px;
+    width: 85px;
     font-size: 50px;
 }
 
