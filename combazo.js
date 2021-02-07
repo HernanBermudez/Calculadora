@@ -1,45 +1,83 @@
+var operacion = "";
+var todo = document.getElementById("resultado").innerHTML = operacion;
+let num1 = 0;
+let num2 = 0;
 
 function cero(){
-    let num0 = 0;
     cerotxt = "0";
-    document.getElementById(display).innerHTML = "0";
+    operacion = operacion + cerotxt;
+    document.getElementById("resultado").innerHTML = operacion;
 }
 function uno(){
-    let num1 = 1;
-    const unotxt = toString.num1;
+    unotxt = "1";
+    operacion = operacion + unotxt;
+    document.getElementById("resultado").innerHTML = operacion;
 
 }
 function dos(){
-    let num2 = 2;
-    const dostxt = toString.num2;
+    dostxt = "2";
+    operacion = operacion + dostxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function tres(){
-    let num3 = 3;
-    const trestxt = toString.num3;
+    trestxt = "3";
+    operacion = operacion + trestxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function cuatro(){
-    let num4 = 4;
-    const cuatrotxt = toString.num4;
+    cuatrotxt = "4";
+    operacion = operacion + cuatrotxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function cinco(){
-    let num5 = 5;
-    const cincotxt = toString.num5;
+    cincotxt = "5";
+    operacion = operacion + cincotxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function seis(){
-    let num6 = 6;
-    const seistxt = toString.num6;
+    seistxt = "6";
+    operacion = operacion + seistxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function siete(){
-    let num7 = 7;
-    const sietetxt = toString.num7;
+    sietetxt = "7";
+    operacion = operacion + sietetxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function ocho(){
-    let num8 = 8;
-    const ochotxt = toString.num8;
+    ochotxt = "8";
+    operacion = operacion + ochotxt;
+    document.getElementById("resultado").innerHTML = operacion;;
 }
 function nueve(){
-    let num9 = 9;
-    const nuevetxt = toString.num9;
+    nuevetxt = "9";
+    operacion = operacion + nuevetxt;
+    document.getElementById("resultado").innerHTML = operacion;;
+}
+function borrar(){
+    operacion = "";
+    document.getElementById("resultado").innerHTML = operacion;
+}
+
+function suma(){
+    num1 = parseInt(operacion);
+    operacion = "";
+}
+function resta(){
+    
+}
+function multi(){
+    
+}
+function divi(){
+    
+}
+function igual(){
+    num2 = parseInt(operacion);
+    operacion = "";
+    iguala = num1 + num2;
+    mostrar = toString(iguala)
+    document.getElementById("resultado").innerHTML = mostrar ;
 }
 
 
