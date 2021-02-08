@@ -9,13 +9,13 @@ body {
     margin: 0 auto;
     background-color: #d43810;
     border-radius: 5px;
-    border: black 5px solid;
-  }
+    border-style: solid;
+}
 
 .box_operando{
     height: 200px;
     width: 800;
-    float: left;    
+    border-style: solid ;  
 }
 #display {
     background-color:aliceblue;
@@ -28,10 +28,11 @@ body {
 }
 
 .box_numeros{
-    height: 300px;
-    width: 500px;
-    margin-left: 65px;
+    height: 389px;
+    width: 450px;
+    padding-left: 65px;
     float: left;
+    border-style: solid;
 }
 
 #numeros {
@@ -41,25 +42,11 @@ body {
     font-size: 50px;
 }
 
-.box_cero{
-    height: 100px;
-    width: 500px;
-    margin-left: 65px;
-    float: bottom;
-}
-
-#cerito{
-    border-radius: 30px;
-    height: 80px;
-    width: 120px;
-    font-size: 50px;
-    margin-left: 125px;
-}
-
 .box_operadores{
-    width: 200px;
-    height: 400px;
-    float: left;
+    width: 273px;
+    height: 389px;
+    float:inline-start;
+    border-style:solid;
 }
 
 #operadores{
